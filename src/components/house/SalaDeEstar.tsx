@@ -4,7 +4,11 @@ import { MuralRecados } from "@/components/house/MuralRecados"
 import { ListaAmigos } from "@/components/house/ListaAmigos"
 import { Biblioteca } from "@/components/house/biblioteca/Biblioteca"
 
-export function SalaDeEstar() {
+interface SalaDeEstarProps {
+  userId?: string;
+}
+
+export default function SalaDeEstar({ userId }: SalaDeEstarProps) {
   return (
     <Card className="w-full">
       <CardHeader>
