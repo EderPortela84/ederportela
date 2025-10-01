@@ -2,7 +2,7 @@ import { useAuth } from '@/hooks/useAuth';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '@/components/layout/Navbar';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Shield, AlertTriangle, Flag } from 'lucide-react';
+import { Shield, TriangleAlert as AlertTriangle, Flag } from 'lucide-react';
 
 export default function Police() {
   const { user } = useAuth();

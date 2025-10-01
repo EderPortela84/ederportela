@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Home, ArrowLeft } from 'lucide-react';
+import { Chrome as Home, ArrowLeft } from 'lucide-react';
 
 export default function NotFound() {
   const navigate = useNavigate();
